@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=lcovonly mocha"
+    "test": "nyc --reporter=lcovonly mocha",
+    "coverage": "sonar-scanner"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^9.1.3",
-    "nyc": "^15.1.0"
+    "nyc": "^15.1.0",
+    "sonar-scanner": "^3.1.0"
   }
 }
